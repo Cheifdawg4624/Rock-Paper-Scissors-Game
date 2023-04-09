@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: #ffb81c;
+}
+
+.container {
+  padding: 7% 15%;
+  font-family: "Roboto", sans-serif;
+}
+
+.results,
+.score,
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+}
+.score {
+  font-size: 1.5rem;
+}
+.btns {
+  padding: 5% 10%;
+}
+
+.btn {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #ffb81c;
+  font-size: 1.5rem;
+  padding: 50px;
+  background-color: black;
+  border-color: #ffb81c;
+  border-radius: 5%;
+}
